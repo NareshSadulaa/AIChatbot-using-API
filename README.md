@@ -1,0 +1,34 @@
+💬 NashBot – Chatbot UI Component:-
+This project includes a minimalist, floating chatbot popup UI named NashBot, designed for web applications. It features a modern, user-friendly layout and supports message input, emoji selection, and image uploads. The UI is built using HTML, CSS, and JavaScript and is easily customizable for your own backend or chatbot logic.
+
+🔧 Key Features:-
+🟢 Toggle chatbot popup with a floating button
+💬 Chat interface with bot and user message areas
+😊 Emoji picker integration
+📎 Image upload with preview and cancel option
+📤 Stylish message send button
+🧠 Placeholder for "thinking" bot animation
+🧩 Modular and easy to integrate into existing web pages
+
+📁 How to Use:- 
+1)Copy the HTML structure into your webpage.
+2)Add CSS styles to style the popup (provided as style.css file).
+3)Implement JavaScript logic to handle toggling, message sending, file preview, and emoji picker.
+4)Optionally connect it to an actual chatbot backend like Google Gemini or your own server.
+
+📂 Code Snippet:-
+Here’s the main markup structure for the component:
+html
+<!-- Floating Toggler Button -->
+<button id="chatbot-toggler">
+  <span class="material-symbols-outlined">mode_comment</span>
+  <span class="material-symbols-outlined">close</span>
+</button>
+
+<!-- Chatbot Popup Container -->
+<div class="chatbot-popup">
+  <!-- Header, Body and Footer Code -->
+  ...
+</div>
+
+Full code available in the repository. You can easily customize styles, icons, and chatbot behavior.
